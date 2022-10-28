@@ -4,6 +4,12 @@
 - vite3
 - react-router-dom-6.4+
 
+## husky 不生效?
+
+```
+npx husky install
+```
+
 ## Commits 规范说明：
 
 - [Commits MUST be prefixed with a type:](https://www.conventionalcommits.org/en/v1.0.0-beta.2/#specification)
