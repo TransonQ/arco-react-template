@@ -1,7 +1,9 @@
 import { Button, Card, Result } from '@arco-design/web-react'
+import { useNavigate } from 'react-router-dom'
 import styled from 'styled-components'
 
 export function ErrorRootPage() {
+  const nav = useNavigate()
   return (
     <Center>
       <Box>
@@ -20,6 +22,7 @@ export function ErrorRootPage() {
               <Button
                 key="back"
                 type="primary"
+                onClick={() => nav(-1, { replace: true })}
               >
                 Back
               </Button>,

@@ -5,8 +5,8 @@
 }
 /* 设置背景顶部布局的颜色 */
 .layout_frame .arco-layout-header {
-  height: 48px;
-  line-height: 48px;
+  height: 52px;
+  line-height: 52px;
   background: var(--color-bg-3);
 }
 /* 侧边菜单栏的高度 */
