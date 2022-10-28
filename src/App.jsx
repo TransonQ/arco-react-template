@@ -1,7 +1,7 @@
 import './App.css'
 
 function App() {
-  return <>app123123</>
+  return <>app</>
 }
 
 export default App
