@@ -1,13 +1,5 @@
 import { Button, Card, Result } from '@arco-design/web-react'
-import PropTypes from 'prop-types'
 import styled from 'styled-components'
-
-ErrorRootPage.propTypes = {
-  error: PropTypes.shape({
-    message: PropTypes.any,
-  }),
-  resetErrorBoundary: PropTypes.func,
-}
 
 export function ErrorRootPage() {
   return (
