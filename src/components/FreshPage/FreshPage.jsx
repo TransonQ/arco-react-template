@@ -13,7 +13,10 @@ export const FreshPage = () => {
         isDarkTheme ? styles.dark : styles.light
       )}
     >
-      <Spin dot size={10} />
+      <Spin
+        dot
+        size={10}
+      />
     </div>
   )
 }

@@ -102,7 +102,13 @@ export const HeaderBar = () => {
             trigger="click"
             position="bl"
           >
-            <Avatar className={styles.avatar}>{userData.name}</Avatar>
+            <Avatar
+              size={36}
+              style={{ fontSize: 24, backgroundColor: '#3370ff' }}
+              className={styles.avatar}
+            >
+              {userData.name?.[0]}
+            </Avatar>
           </Dropdown>
         </Space>
       </div>
