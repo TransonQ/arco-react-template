@@ -1,0 +1,7 @@
+{
+  "host": "localhost",
+  "port": 3011,
+  "watch": true,
+  "routes": "json-server/routes.json",
+  "delay": 500
+}
